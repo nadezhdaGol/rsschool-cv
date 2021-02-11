@@ -9,7 +9,7 @@
 * Discord: nadezhdaGol
 
 # About me
-I have no experience in IT yet, but I am ready to study hard in order to become a professional in the field of programming in the future and share my experience
+I have no experience in programming yet, but I am ready to study hard in order to become a professional in the field of programming in the future and share my experience with others
 
 # Skills
 * HTML
