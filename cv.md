@@ -18,13 +18,15 @@ I have no experience in IT yet, but I am ready to study hard in order to become 
 
 # Code example
 ``` javascript
-var hero = function(bullets, dragons){
-if ((bullets) >= (dragons * 2)) {
-  return true;
-} else {
-  return false;
-};
-};
+function squareDigits(num){
+  let str = num.toString(),
+      arr = str.split(''),
+      arrMult = +arr.reduce((total, amount) => {
+        total.push(Math.pow(amount, 2));
+        return total;
+      }, []).join('');
+  return arrMult;
+}
 ```
 
 # Education
