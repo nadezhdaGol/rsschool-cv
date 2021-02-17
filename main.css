@@ -1,0 +1,603 @@
+body {
+    background: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #303f3c;
+    width: 1000px;
+    margin: 0 auto;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: #efe6d8;
+    background-color: #fbfcfa;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 73px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.25em;
+    margin: 0 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/*ФОТОГРАФИЯ*/
+.photo {
+    float: left;
+    margin-top: -6%;
+    margin-left: 4.2%;
+}
+
+.photo img {
+    width: 390px;
+    height: 390px;
+    border-radius: 100%;
+}
+
+/*ИМЯ*/
+.myname {
+    position: relative;
+    z-index: 1;
+    margin-top: 13%;
+    margin-right: 4%;
+}
+
+.myname h1 {
+    text-align: right;
+}
+
+/*ДОЛЖНОСТЬ*/
+.profession {
+    clear: right;
+    margin-right: 4.2%;
+    margin-top: 1.5%;
+    position: relative;
+    z-index: 1;
+}
+
+.profession h2 {
+    color: #c7998c;
+    text-align: right;
+}
+
+/* ФИГУРЫ */
+.figure {
+    margin-top: -358px;
+    margin-left: 0;
+}
+
+.figure1 {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.figure1 img {
+    width: 41em;
+    margin: -200px 0 0 -175px;
+}
+
+.figure2 {
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.figure2 img {
+    width: 60em;
+    margin: -400px 0 0 -50px;
+}
+
+/*ОБО МНЕ*/
+.about {
+    margin: -10px 0 0 0;
+}
+
+.about h3 {
+    margin: 0 0 22px 11.2%;
+}
+
+.infoabout {
+    width: 25%;
+    margin: 0 0 0 11.2%;
+}
+
+/*ОБРАЗОВАНИЕ*/
+.education {
+    margin: 0;
+}
+
+.education h3 {
+    float: right;
+    text-align: left;
+    margin: -192px 375px 0 0;
+}
+
+.education h4 {
+    float: right;
+    text-align: left;
+    margin: -127px 57px 0 0;
+}
+
+.eduinfo {
+    clear: right;
+    float: right;
+    width: 25%;
+    margin: -85px 250px 0 0;
+}
+
+/*НАВЫКИ*/
+.skills {
+    margin: 150px 0 0 0;
+}
+
+.skills h3 {
+    margin: 0 0 22px 11.2%;
+}
+
+.skills h5 {
+    width: 22%;
+}
+
+.skill-list {
+    width: 50%;
+    margin: 0 0 7px 7.3%;
+    list-style-type: none;
+}
+
+.skillsinfo {
+    display: flex;
+}
+
+.circle {
+    display: flex;
+}
+
+.fill {
+    background: #212422;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.unfill {
+    background: #b7b7b4;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+/*ЯЗЫКИ*/
+.languages {
+    margin: 0;
+}
+
+.languages h3 {
+    float: right;
+    text-align: left;
+    margin: -200px 370px 0 0;
+}
+
+.language {
+    clear: right;
+    float: right;
+    width: 25%;
+    margin: -140px 235px 0 0;
+    list-style-type: circle;
+}
+
+/*ПРИМЕР КОДА*/
+.code {
+    margin: 0;
+    position: relative;
+    z-index: -5;
+    overflow: hidden;
+}
+
+.code h3 {
+    float: right;
+    text-align: left;
+    margin: 33px 334px 0 0;
+}
+
+.code p {
+    clear: right;
+    float: right;
+    text-align: left;
+    margin: 10px 171px 0 0;
+}
+
+.example {
+    clear: right;
+    float: right;
+    width: 45%;
+    margin: 21px 183px 0 0;
+}
+
+.example pre {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+}
+
+.yellow {
+    color: #fd923f;
+}
+
+.green {
+    color: #549e0a;
+}
+
+.grey {
+    color: rgb(165, 165, 165);
+}
+
+/* ФИГУРА 3*/
+.figure3 {
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.figure3 img {
+    margin: -50px 0 -400px -450px;
+}
+
+/*КОНТАКТЫ*/
+.footer {
+    margin: -290px 0 22px 0;
+}
+
+.footer h3 {
+    margin: 0 0 22px 11.2%;
+}
+
+.contacts {
+    width: 25%;
+    margin: 0 0 0 7.3%;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #303f3c;
+    transition: all 0.5s ease;
+}
+
+.contacts a:hover {
+    background: #f1cfb7;
+    border-radius: 3px;
+    color: #303f3c;
+    padding: 0;
+}
+
+.social {
+    width: 25%;
+    margin: 0 0 0px 7.9%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 100%;
+    color: #303f3c;
+    transition: all 0.5s ease;
+}
+
+.social img:hover {
+    background: #f1cfb7;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.line {
+    width: 25%;
+    margin: 0 0 0px 11.2%;
+    border-top-width: 2px;
+    border-top-style: ridge;
+    border-top-color: #efe6d8;
+    padding: 0;
+}
+
+.rss {
+    width: 25%;
+    margin: 8px 0 0 14.3%;
+    padding: 0;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.rss img {
+    width: 100px;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    color: #303f3c;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+}
+
+.rss img:hover {
+    background: #f1cfb7;
+    border-radius: 15px;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 400px;
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    h4 {
+        font-size: 80%;
+    }
+
+    h5 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    .photo {
+        margin: 0 auto;
+    }
+
+    .photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .myname {
+        margin: 0 auto;
+    }
+
+    .myname h1 {
+        text-align: center;
+    }
+
+    .profession {
+        margin: 1% auto;
+    }
+
+    .figure {
+        margin: 0;
+    }
+
+    .figure1 {
+        width: 25em;
+        margin-top: -1000px;
+        margin-left: 0px;
+    }
+
+    .figure2 {
+        visibility: hidden;
+    }
+
+    .about {
+        margin: -485px 0 0 0;
+    }
+
+    .about h3 {
+        margin: 1% auto;
+    }
+
+    .infoabout {
+        width: 80%;
+    }
+
+    .education {
+        margin: 5% auto;
+    }
+
+    .education h3 {
+        margin: 1% auto;
+    }
+
+    .education h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .eduinfo {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .eduinfo p {
+        text-align: center;
+    }
+
+    .skills {
+        margin: 0 auto;
+    }
+
+    .skills h3 {
+        margin: 1% auto;
+    }
+
+    .skill-list {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .skillsinfo {
+        justify-content: space-between;
+        margin: 0 15%;
+    }
+
+    .languages {
+        margin: 5% auto;
+    }
+
+    .languages h3 {
+        margin: 1% auto;
+    }
+
+    .language {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 140px;
+    }
+
+    .code {
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .code h3 {
+        margin: 1% auto;
+    }
+
+    .code p {
+        margin: 0 auto;
+    }
+
+    .example {
+        margin: 0;
+        padding: 0;
+    }
+
+    .example pre {
+        width: 100%;
+        margin-left: -110px;
+        padding: 0;
+    }
+
+    .figure3 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: -3;
+        margin: 0;
+    }
+
+    .figure3 img {
+        margin-left: -40px;
+        margin-top: -10px;
+        margin-bottom: -530px;
+    }
+
+    .footer {
+        margin: -235px auto 20px auto;
+    }
+
+    .footer h3 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .contacts-list {
+        padding: 0;
+        margin-left: 90px;
+    }
+
+    .social {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .social img {
+        margin: 0 20px;
+    }
+
+    .line {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .rss {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+}
