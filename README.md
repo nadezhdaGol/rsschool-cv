@@ -1,1 +1,1 @@
-https://nadezhdaGol.github.io/rsschool-cv/
+https://nadezhdaGol.github.io/rsschool-cv/cv
