@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Curriculum vitae">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600&family=Oswald:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="photo">
+                <img src="img/photo.jpg" alt="My photo">
+            </div>
+            <div class="myname">
+                <h1>Nadezhda<br>Golyashova</h1>
+            </div>
+            <div class="profession">
+                <h2>PPC Specialist</h2>
+            </div>
+        </div>
+    </header>
+
+    <figure class="figure">
+        <div class="container">
+            <div class="figure1">
+                <img src="img/fig1.png" alt="figure 1">
+            </div>
+            <div class="figure2">
+                <img src="img/fig2.png" alt="figure 2">
+            </div>
+        </div>
+    </figure>
+
+    <section class="about">
+        <div class="container">
+            <h3>About me</h3>
+            <div class="infoabout">
+                <p>I have no experience in programming yet, but I am ready to study hard in order to become a
+                    professional in the field of programming in the future and share my experience with others</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h3>Education</h3>
+            <h4>Belarusian State University <br> of Informatics and Radioelectronics</h4>
+            <div class="eduinfo">
+                <p>2012-2016 | Marketing</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h3>Skills</h3>
+            <ul class="skill-list">
+                <li>
+                    <div class="skillsinfo">
+                        <h5>HTML</h5>
+                        <div class="circle">
+                            <div class="fill"> </div>
+                            <div class="fill"> </div>
+                            <div class="fill"> </div>
+                            <div class="fill"> </div>
+                            <div class="fill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skillsinfo">
+                        <h5>CSS</h5>
+                        <div class="circle">
+                            <div class="fill"> </div>
+                            <div class="fill"> </div>
+                            <div class="fill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skillsinfo">
+                        <h5>JavaScript</h5>
+                        <div class="circle">
+                            <div class="fill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                            <div class="unfill"> </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="languages">
+        <div class="container">
+            <h3>Languages</h3>
+            <ul class="language">
+                <li>Russian (native)</li>
+                <li>English (B1)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="code">
+        <div class="container">
+            <h3>Code example</h3>
+            <div class="example">
+                <pre>
+                        <b><span class="yellow">function</span></b> <span class="green">squareDigits</span>(<span class="green">num</span>){
+                          <b><span class="yellow">let</span></b> <span class="green">str</span> = <span class="green">num</span>.toString(),
+                               <span class="green">arr</span> = <span class="green">str</span>.split(''),
+                               <span class="green">arrMult</span> = +<span class="green">arr</span>.reduce((<span class="green">total</span>, <span class="green">amount</span>) => {
+                                 <span class="green">total</span>.push(Math.pow(<span class="green">amount</span>, <span class="green">2</span>));
+                                 <b><span class="yellow">return</span></b> <span class="green">total</span>;
+                               }, []).join('');
+                          <b><span class="yellow">return</span></b> <span class="green">arrMult</span>;
+                        }
+
+                        squareDigits(<span class="green">185</span>); <span class="grey">// 16425</span>
+                    </pre>
+            </div>
+            <p>More examples in my Codewars account</p>
+        </div>
+    </section>
+
+    <figure class="figure">
+        <div class="container">
+            <div class="figure3">
+                <img src="img/fig3.png" alt="figure 3">
+            </div>
+        </div>
+    </figure>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>Contacts</h3>
+            <div class="contacts">
+                <ul class="contacts-list">
+                    <li>
+                        <p>Telephone: <br><a href="tel:+375444722301">+375 44 47-22-301</a></p>
+                    </li>
+                    <li>
+                        <p>E-mail: <br><a href="mailto:nadezhda14051995@gmail.com">nadezhda14051995@gmail.com</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="social">
+                <li>
+                    <a href="https://github.com/nadezhdaGol" target="_blank"><img src="img/github.png" alt="github"></a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/B9VBZqTKZ9" target="_blank"><img src="img/discord.png"
+                            alt="discord"></a>
+                </li>
+                <li>
+                    <a href="https://www.codewars.com/users/nadezhdaGol" target="_blank"><img src="img/codewars.png"
+                            alt="codewars"></a>
+                </li>
+            </ul>
+        </div>
+
+        <hr class="line">
+
+        <div class="container">
+            <div class="rss">
+                <a href="https://rs.school/js/" target="_blank"><img src="img/rolligscopes.png" alt="rss"></a>
+                <time>2021-02-16</time>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
